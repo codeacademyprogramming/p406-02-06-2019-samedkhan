@@ -1,0 +1,30 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.text{
+    width: 500px;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: justify;
+   
+}
+.gray{
+    color: lightgray;
+}
+button{
+    background: black;
+    border: none;
+    border-radius: 4px;    
+    padding: 16px;
+    font-size: 12px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+p span{
+    color:red;
+    display: inline-block;
+    margin-right: 20px;
+
+}
