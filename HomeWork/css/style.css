@@ -1,3 +1,4 @@
+/* // First task */
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -8,23 +9,66 @@
     text-align: justify;
    
 }
-.gray{
+.text .gray{
     color: lightgray;
 }
-button{
+.text button{
     background: black;
     border: none;
     border-radius: 4px;    
     padding: 16px;
     font-size: 12px;
 }
-button a{
+.text button a{
     color: white;
     text-decoration: none;
 }
-p span{
+.text p span{
     color:red;
     display: inline-block;
     margin-right: 20px;
 
 }
+/* //END */
+
+
+
+/* //Second task */
+.form{
+    box-sizing: border-box;
+    padding: 10px 40px;
+    width:1000px;
+    margin: 50px auto;
+    background: rgb(50,36,235);
+    background: linear-gradient(24deg, rgba(50,36,235,1) 0%, rgba(150,11,250,1) 91%, rgba(150,11,250,1) 100%);
+    color:white;
+}
+.form p{
+    margin:20px 0px;
+}
+ .form p>span{
+    display:inline-block;
+    margin-left:30px;
+}
+
+.form p>i{
+    display:inline-block;
+    margin-right: 15px;
+}
+
+.form p+h2{
+    margin-top: 30px;
+}
+.form form{
+    width:100%;
+}
+.form form input, textarea{
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: block;
+    width:100%;
+    padding:20px;
+    margin:15px 0px;
+    font-size: 16px;
+}
+/* //END */
